@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover {
+            color: rgb(49, 226, 43);
+            background-color: aquamarine;
+            font-weight: 700;
+        }
+
+        .third-parson:focus {
+            color: rgb(216, 8, 77);
+            font-weight: 700;
+        }
+
+        a:visited {
+            color: rgb(212, 17, 131);
+        }
+
+        li:first-child {
+            color: rgb(248, 250, 248);
+        }
+
+        li:last-child {
+            background-color: paleturquoise;
+        }
+
+        li:nth-child(2n) {
+            color: pink;
+        }
+
+        li:nth-child(2n+1) {
+            background-color: gray;
+        }
+
+        h3::before {
+            content: 'Hello ';
+        }
+
+        /* h3::after {
+            content: ' end';
+            background-color: chocolate;
+            font-size: 10px;
+        } */
+
+        .spesial::after {
+            content: ' end';
+            background-color: chocolate;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is Normal</h1>
+    <input type="text">
+    <input type="text">
+    <input class="third-parson" type="text">
+    <br>
+    <a href="https://www.google.com/">Google e jau</a>
+    <a href="https://web.programming-hero.com/home/">Pogramming Hero te jau</a>
+    <a href="https://www.gadgets360.com/entertainment/new-web-series">New Web site e jau</a>
+    <h3>middel size header -1</h3>
+    <h3>middel size header -2</h3>
+    <h3 class="spesial">middel size header -3</h3>
+    <h3>middel size header -4</h3>
+    <h3 class="spesial">middel size header -5</h3>
+    <h3>middel size header -6</h3>
+    <ul>
+        <li>Alif</li>
+        <li>Rushi</li>
+        <li>Abbu</li>
+        <li>Ammu</li>
+        <li>Ekra</li>
+        <li>Alim</li>
+        <li>Elma</li>
+        <li>Rima</li>
+        <li>Sabbir</li>
+    </ul>
+</body>
+
+</html>
